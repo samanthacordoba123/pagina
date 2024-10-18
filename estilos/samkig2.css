@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient( 
+        rgb(0, 0, 0, 0.7),
+        rgb(0, 0, 0, 0.7)),
+        url(../imagenes/numero1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color:  #b186f1;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-contenedor {
+    text-align: center;
+}
+
+.header-contenedor h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-contenedor p {
+    font-size: 20px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color:  #b186f1;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #b186f1;
+}
+
+.coffe {
+    padding: 100px 0;
+    background-color: #d3bcf6  ; /* Morado clarito */
+    position: relative;
+}
+
+.coffe-contenido {
+    text-align: center;
+}
+
+.coffe-contenido h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.coffe-1 {
+    padding: 0 25px;
+}
+
+.coffe-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+
+.coffe-1 img {
+    width: 100px;
+}
+
+.coffe-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.coffe-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.servicios {
+    background-image: linear-gradient(
+        rgb(0, 0, 0, 0.7),
+        rgb(0, 0, 0, 0.7)
+    ), url(../imagenes/niño2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.servicos-contenido {
+    text-align: center;
+}
+
+.servicos-contenido h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.servicos-contenido p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.servicios-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.servicios-1 {
+    padding: 0 100px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.servicios-1 img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.servicios-1 h3 {
+    color: #eaeaf5;
+    font-size: 25px;
+}
